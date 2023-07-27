@@ -20,12 +20,14 @@
 
 ## Pari e Dispari (Svolgimento)
 
-- Creo una variabile di appoggio booleana (true/false) per far scegliere il pari o dispari
+- Creo una funzione per chiedere pari o dispari
 
-  - **SE** sceglie pari = true
-    - controllo la scelta possibile tra i numeri 2,4
-  - **ALTRIMENTI SE** sceglie dispari = false
-    - controllo la scelta possibile tra i numeri 1,3,5
+  - Creo una variabile di appoggio booleana (true/false) per far scegliere il pari o dispari
+
+    - **SE** sceglie pari = true
+      - controllo la scelta possibile tra i numeri 2,4
+    - **ALTRIMENTI SE** sceglie dispari = false
+      - controllo la scelta possibile tra i numeri 1,3,5
 
 - Creo una funzione per chiedere il numero all'utente
 
