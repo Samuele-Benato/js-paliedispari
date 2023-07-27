@@ -20,15 +20,17 @@
 
 ## Pari e Dispari (Svolgimento)
 
-- Creo una funzione per chiedere il numero all'utente
-  - Controllo che effettivamente inserisca un numero con 'while'
-  - Uso 'return' per poter accedere all'informazione di interesse dentro la funzione
 - Creo una variabile di appoggio booleana (true/false) per far scegliere il pari o dispari
 
   - **SE** sceglie pari = true
     - controllo la scelta possibile tra i numeri 2,4
   - **ALTRIMENTI SE** sceglie dispari = false
     - controllo la scelta possibile tra i numeri 1,3,5
+
+- Creo una funzione per chiedere il numero all'utente
+
+  - Controllo che effettivamente inserisca un numero con 'while'
+  - Uso 'return' per poter accedere all'informazione di interesse dentro la funzione
 
 - Creo una costante che genera un numero randomico per il computer definendo min e max (Math.floor(Math.random()\*(max - min)) + min;)
 
