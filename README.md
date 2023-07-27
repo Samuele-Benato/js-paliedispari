@@ -6,6 +6,15 @@
 
 - Creare una funzione per capire se la parola inserita è palindroma
 
+## Palidroma (Svolgimento)
+
+- Chiedo una parola all'utente
+- Creo una **FUNZIONE** per controllare :
+  - **SE** le lettere una ad una sono uguali
+    - Il numero è palidromo
+  - **ALTRIMENTI**
+    - Non è palindromo
+
 ## Pari e Dispari (Istruzioni)
 
 - L'utente sceglie pari o dispari e inserisce un numero da 1 a 5.
@@ -20,33 +29,20 @@
 
 ## Pari e Dispari (Svolgimento)
 
-- Creo una funzione per chiedere pari o dispari
+- Creo due opzioni di scelta
 
-  - Creo una variabile di appoggio booleana (true/false) per far scegliere il pari o dispari
+  - pulsante pari
+  - pulsante dispari
 
-    - **SE** sceglie pari = true
-      - controllo la scelta possibile tra i numeri 2,4
-    - **ALTRIMENTI SE** sceglie dispari = false
-      - controllo la scelta possibile tra i numeri 1,3,5
+- Chiedere di inserire un numero da 1 a 5
 
-- Creo una funzione per chiedere il numero all'utente
-
-  - Controllo che effettivamente inserisca un numero con 'while'
-  - Uso 'return' per poter accedere all'informazione di interesse dentro la funzione
-
-- Creo una costante che genera un numero randomico per il computer definendo min e max (Math.floor(Math.random()\*(max - min)) + min;)
-
-- Creo una costante con userNumber + computerNumber
-
-- **SE** costante = userNumber + computerNumber % 2 == 0
-  - il numero è pari
-  - return con il valore del numero uscito
+- Creo una **FUNZIONE**
+  - Con Math.floor(Math.random()\*(max-min)) + min; genero un numero casuale
+  - sommo il numero casuale con il numero scelto dall'utente
+  - return con la somma
+- **SE** la somma è pari **E** l'utente ha scelto pari
+  - l'utente ha vinto
+    \_ **ALTRIMENTI SE** la somma è dispari e l'utente ha scelto dispari
+  - L' utente ha vinto
 - **ALTRIMENTI**
-
-  - il numero è dispari
-  - return con il valore del numero uscito
-
-- **SE** user ha scelto pari **E** il risultato è pari
-  - ha vinto
-- **ALTRIMENTI**
-  - ha vinto il computer
+  - l'utente ha perso
